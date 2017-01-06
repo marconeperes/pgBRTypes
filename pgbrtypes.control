@@ -1,0 +1,4 @@
+comment = 'pgBRTypes is a simple extesion to provider a CPF and CNPJ data types so far.'
+default_version = '1.0'
+module_pathname = '$libdir/pgbrtypes'
+relocatable = true

@@ -1,7 +1,7 @@
 pgBRTypes
 =========
 
-This is a simple implementation of some brazilians data types as CNPJ and CPF into PostgreSQL. The documentation is avaliable only in portuguese.
+This is a simple implementation of some brazilians data types as CNPJ and CPF in PostgreSQL. The documentation is avaliable only in portuguese.
 
 Tipos de dados comumente utilizados no Brasil. Por enquanto os tipos disponíveis são CPF e CNPJ, mas em breve serão implementados outras tipagens como título de eleitor, RG (alguns estados), certidões, etc.
 

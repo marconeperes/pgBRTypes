@@ -8,9 +8,9 @@ Tipos de dados comumente utilizados no Brasil. Por enquanto os tipos disponívei
 I. Pré-requisitos
 -----------------
 
-PostgreSQL >= 9.1 (Testado somente na versão 9.6, porém acreditamos que rode tranquilamente em versões anteriores);
-pg_config acessível diretamente via shell (caminho dos binários do postgres configurados no PATH);
-Pacote make e suas dependências;
+- PostgreSQL >= 9.1 (Testado somente na versão 9.6, porém acreditamos que rode tranquilamente em versões anteriores);
+- pg_config acessível diretamente via shell (caminho dos binários do postgres configurados no PATH);
+- Pacote make e suas dependências;
 
 II. Instalação
 --------------
@@ -49,9 +49,9 @@ SELECT
 	'14.320.135/0001-49'::cnpj,
 	4283548000147::cnpj;
 
---* CPFs e CNPJs gerados aleatoriamente.
+-- * CPFs e CNPJs gerados aleatoriamente.
 
---Convertendo colunas de tabelas:
+-- Convertendo colunas de tabelas:
 CREATE TABLE teste_pgbrtypes(
 	cpf_numerico BIGINT NOT NULL,
 	cpf_texto VARCHAR NOT NULL,
